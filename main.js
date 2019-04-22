@@ -50,7 +50,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: '', redirectTo: 'onboarded-students', pathMatch: 'full' },
+    { path: '', redirectTo: 'login', pathMatch: 'full' },
     { path: 'login', component: _app_login_form_login_form_component__WEBPACK_IMPORTED_MODULE_4__["LoginFormComponent"] },
     {
         path: 'logged', component: _app_user_logged_in_user_logged_in_component__WEBPACK_IMPORTED_MODULE_5__["UserLoggedInComponent"], canActivate: [_services_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"]],
